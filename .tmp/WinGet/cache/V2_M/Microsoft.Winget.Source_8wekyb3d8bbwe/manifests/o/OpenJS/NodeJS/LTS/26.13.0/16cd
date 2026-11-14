@@ -1,0 +1,112 @@
+Author: OpenJS Foundation
+Commands:
+- corepack
+- node
+- npm
+- npx
+Copyright: Copyright Node.js contributors. All rights reserved.
+CopyrightUrl: https://trademark-policy.openjsf.org/
+Description: "Node.js\xAE is a free, open-source, cross-platform JavaScript runtime
+  environment that lets developers create servers, web apps, command line tools and
+  scripts."
+Documentations:
+- DocumentLabel: Learn
+  DocumentUrl: https://nodejs.org/learn/
+- DocumentLabel: Documentation
+  DocumentUrl: https://nodejs.org/docs/v26.13.0/api/
+- DocumentLabel: About
+  DocumentUrl: https://nodejs.org/about/
+ElevationRequirement: elevatesSelf
+FileExtensions:
+- cjs
+- js
+- mjs
+InstallerSwitches:
+  InstallLocation: INSTALLDIR="<INSTALLPATH>"
+InstallerType: wix
+Installers:
+- Architecture: x64
+  InstallerSha256: 0E5EE99C7CBF922887F04AF268E3665990748945336A44956F47CC0DF695B6DF
+  InstallerUrl: https://nodejs.org/dist/v26.13.0/node-v26.13.0-x64.msi
+  ProductCode: '{00E7FE65-2A5B-42F9-844F-E6CF421A59BA}'
+- Architecture: arm64
+  InstallerSha256: A9D7E34EAEEADD4ECBD9F0795F49F9D2C2625E63FC4E2F77709F039497F57033
+  InstallerUrl: https://nodejs.org/dist/v26.13.0/node-v26.13.0-arm64.msi
+  ProductCode: '{53C76B0A-AD72-4796-9CF3-D57AF0F31622}'
+License: MIT
+LicenseUrl: https://github.com/nodejs/node/blob/v26.13.0/LICENSE
+Localization:
+- Description: "Node.js\xAE \u662F\u4E00\u4E2A\u514D\u8D39\u3001\u5F00\u6E90\u3001\u8DE8\u5E73\u53F0\u7684
+    JavaScript \u8FD0\u884C\u65F6\u73AF\u5883\uFF0C\u5B83\u8BA9\u5F00\u53D1\u4EBA\u5458\u80FD\u591F\u521B\u5EFA\u670D\u52A1\u5668\u3001Web
+    \u5E94\u7528\u3001\u547D\u4EE4\u884C\u5DE5\u5177\u548C\u811A\u672C\u3002"
+  Documentations:
+  - DocumentLabel: "\u5B66\u4E60"
+    DocumentUrl: https://nodejs.org/zh-cn/learn/
+  - DocumentLabel: "\u6587\u6863"
+    DocumentUrl: https://nodejs.org/docs/v26.13.0/api/
+  - DocumentLabel: "\u5173\u4E8E"
+    DocumentUrl: https://nodejs.org/zh-cn/about/
+  PackageLocale: zh-CN
+  ShortDescription: "\u5728\u4EFB\u4F55\u5730\u65B9\u8FD0\u884C JavaScript"
+  Tags:
+  - javascript
+  - js
+  - node
+  - npm
+  - v8
+  - "\u5F00\u53D1"
+  - "\u73AF\u5883"
+  - "\u7F16\u7801"
+  - "\u7F16\u7A0B"
+  - "\u8DE8\u5E73\u53F0"
+  - "\u8FD0\u884C\u65F6"
+ManifestType: merged
+ManifestVersion: 1.28.0
+Moniker: nodejs-lts
+PackageIdentifier: OpenJS.NodeJS.LTS
+PackageLocale: en-US
+PackageName: Node.js (LTS)
+PackageUrl: https://nodejs.org/
+PackageVersion: 26.13.0
+PrivacyUrl: https://privacy-policy.openjsf.org/
+Publisher: Node.js Foundation
+PublisherSupportUrl: https://github.com/nodejs/node/blob/v26.13.0/.github/SUPPORT.md
+PublisherUrl: https://openjsf.org/
+ReleaseDate: 2026-10-28
+ReleaseNotes: 'Notable Changes
+
+  This release marks the transition of Node.js 26.x into Long Term Support (LTS)
+
+  with the codename ''Lithium''. It will continue to receive updates through to
+
+  the end of April 2029.
+
+  Other than updating metadata, such as the process.release object, to reflect
+
+  that the release is LTS, no further changes from Node.js 26.12.1 are included.
+
+  If you are updating from an earlier Long Term Support release (e.g. Node.js 24
+
+  or 22 or earlier) please note that since Node.js 25 the official binaries for
+
+  Linux are linked against libatomic, which may need to be installed separately
+
+  depending on your Linux distribution.'
+ReleaseNotesUrl: https://github.com/nodejs/node/releases/tag/v26.13.0
+Scope: machine
+ShortDescription: Run JavaScript Everywhere
+Tags:
+- coding
+- cross-platform
+- develop
+- development
+- environment
+- javascript
+- js
+- lts
+- node
+- npm
+- programming
+- runtime
+- v8
+UpgradeBehavior: install
